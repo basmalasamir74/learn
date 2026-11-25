@@ -1,0 +1,93 @@
+.shadow {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  text-shadow:
+    0.5px 0.5px red,
+    1px 1px blue,
+    1.5px 1.5px green;
+}
+
+
+
+
+
+
+p.one {
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+
+p.two {
+  color: black;
+  text-transform: capitalize ;
+  text-align: center;
+  
+}
+
+
+p.three {
+  color: black;
+  text-transform: lowercase ;
+  text-align: center;
+
+}
+
+.bosy {
+    padding: 10px;
+    background-color: #eee;
+    width: 300px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: auto;
+}
+
+
+
+.IDK {
+    white-space: nowrap;
+    background-color: #eee;
+    width: 320px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+    margin: auto;
+
+}
+ .nothing p{
+    white-space: nowrap;
+    background-color: #eee;
+    width: 320px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+   
+ }
+ 
+ .logo{
+  
+   text-decoration: none;
+   align-items:center;
+   justify-content: center; 
+   display: flex;
+
+ }
+
+a {
+background-color: rgb(29, 167, 163);
+border-bottom: 2px solid rgb(19, 112, 111);
+color: white;
+ width: 75px;
+  margin: auto; 
+  text-decoration: none;
+ margin-top: 6px;
+ padding-top: 6px;
+ padding-bottom: 6px;
+  text-align: center; 
+}
+
+

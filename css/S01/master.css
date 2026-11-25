@@ -1,0 +1,385 @@
+/* Styles for the entire document */
+
+/* 
+syntax:
+
+selector{
+key : value;
+
+}
+
+*/
+
+/* h1 {
+  color: red;
+} */
+
+/* Any Element With Class Title */
+.title {
+}
+
+/* ? */
+#nav {
+}
+
+/* ? */
+div {
+}
+
+/* ? */
+h2 {
+}
+
+.text {
+  font-size: 25px;
+  background-color: red;
+  color: white;
+  width: 200px;
+  padding: 10px;
+}
+
+.test {
+  color: blue !important;
+  font-size: 25px;
+}
+
+#test-id {
+  color: green;
+}
+
+.assign-1-shape-1 {
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+  background-color: blueviolet;
+}
+
+.assign-1-shape-2 {
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+  background-color: rgb(207, 159, 252);
+}
+
+.assign-1-shape-3 {
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+  background-color: rgba(228, 196, 238, 0.849);
+}
+
+/* Any Element With Class Title */
+.title {
+}
+
+/* id */
+#nav {
+}
+
+/* valid */
+._user-name {
+}
+
+/* valid */
+.-user-name {
+}
+
+/* not valid */
+/* .1user-name {
+} */
+
+/* not valid */
+/* .@user-name {
+} */
+
+/* i think valid */
+/* .user@name {
+} */
+
+/* not valid */
+._user10name {
+}
+
+/* not valid */
+.u {
+}
+
+/* basmalaSamir camel case  */
+/* PascalCase  */
+
+.assign-2-shape-1 {
+  background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+}
+
+.assign-2-shape-2 {
+  background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+  background-repeat: repeat-y;
+  height: 400px;
+  width: 400px;
+}
+
+.assign-2-shape-3 {
+  background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+  background-repeat: repeat-x;
+  height: 400px;
+  width: 400px;
+}
+
+.assign-2-shape-4 {
+  background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+  background-repeat: repeat;
+
+  height: 400px;
+  width: 400px;
+}
+
+.assign-3-shape-1 {
+  background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+}
+
+
+ .assign-3-shape-2 {
+
+  background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+  background-position: right top ;
+  background-repeat: repeat-y;
+  height: 400px;
+  width: 400px;
+
+
+
+  
+}
+
+.assign-3-shape-3 {
+
+ background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);;
+  background-position: right bottom ;
+  background-repeat: repeat-x;
+  height: 400px;
+  width: 400px;
+
+
+
+  
+}  */
+
+.assign-3-shape-4 {
+  background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+  background-repeat: repeat;
+  height: 400px;
+  width: 400px;
+}
+
+.assign-4-shape-1 {
+  background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+ background-color: #eee;
+  height: 320px;
+  width: 320px;
+}
+
+.assign-4-shape-2 {
+  background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+  height: 400px;
+  width: 320px;
+  background-color: #eee;
+}
+
+.assign-4-shape-3 {
+background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+background-position:bottom;
+background-color: #eee;
+height: 320px;
+width: 400px;
+}
+
+.assign-4-shape-4 {
+
+background-image: url(https://elzero.org/wp-content/uploads/2021/02/css-assignment-5-8.png);
+ background-color: #eee;
+background-position: right bottom ;
+background-repeat:no-repeat;
+width: 400px;
+height: 400px;
+} 
+
+.assign-5-shape-1 {
+  background-color: #eee;
+  display: block;
+  border: 5px solid red;
+  outline: 5px solid black;
+  padding: 10px;
+  width: 100px;
+  margin: auto;
+}
+
+.assign-5-shape-2 {
+  background-color: #eee;
+  display: block;
+  border: solid;
+  border-color: blue green;
+  outline: 5px solid black;
+  padding: 10px;
+  width: 100px;
+}
+.assign-5-shape-3 {
+  background-color: #eee;
+  display: block;
+  outline: 5px solid black;
+  padding: 10px;
+  width: 100px;
+  border: dashed;
+  border-color: red green blue yellow;
+  margin: auto;
+}
+
+.element.element-1 {
+  background-color: #eee;
+  width: 400px;
+  padding: 10px;
+  border-left: 10px solid rgb(226, 63, 107);
+}
+
+.element.element-2 {
+  background-color: #eee;
+  width: 400px;
+  border-left: red;
+  padding: 10px;
+  visibility: hidden;
+}
+
+.element.element-3 {
+  background-color: #eee;
+  display: block;
+
+  width: 400px;
+  padding: 10px;
+  border-left: 10px solid rgb(15, 136, 141);
+}
+
+
+.parent .child .title {
+color: red;
+
+}
+
+
+.parent span.title{
+  color: blue;
+}
+
+
+div p {
+color: green;
+
+}
+
+div.title {
+color: green;
+
+}
+
+
+
+.titleone {
+background-color: red;
+max-width: 400px;
+width: fit-content;
+}
+
+.titletwo {
+  background-color: red;
+  max-width: 400px;
+  width: fit-content;
+  
+}
+
+.titlethree {
+  background-color: red;
+  max-width: 400px;
+  width: fit-content;
+  
+}
+
+.titlefour {
+  background-color: red;
+  max-width: 400px;
+  width: fit-content;
+  height: 55px;
+  overflow: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div {
+text-transform: capitalize;
+text-shadow: 1px 1px 0px  red ; 
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+.box,
+.abdo {
+  background-color: #eee;
+  width: 300px;
+  height: 60px;
+  margin: auto;
+  margin-top: 2px;
+  top: 2px;
+  justify-content: center;
+  display: flex;
+}
+
+.abdo {
+  background-color: red;
+}
+
+.bosy {
+  background-color: #dad6d6;
+  padding: 20px;
+  position: relative;
+  width: 350px;
+  margin: auto;
+}
+
+.bosy span {
+  background-color: red;
+  color: white;
+  font-size: 26px;
+  padding: 10px;
+
+  position: absolute;
+  left: -23px;
+  top: 4px;
+}
+
+.text {
+  background-color: #eee;
+  border-left: 10px solid #dc4275;
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+}
+
+.text::before {
+  content: "";
+  border: 10px solid;
+  position: absolute;
+  left: -28px;
+  border-color: transparent #dc4275 transparent transparent;
+}
+
+.text::after {
+  content: attr(data);
+  position: absolute;
+  background-color: #eee;
+  left: -15%;
+  padding: 10px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.y p {
+  background-color: #eee;
+  border-right: 5px solid red;
+  width: 400px;
+  padding: 20px;
+  margin: auto;
+  position: relative;
+}
+
+.y p::before {
+  content: attr(data);
+  background-color: red;
+  color: white;
+  position: absolute;
+  left: -5%;
+  padding: 20px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+

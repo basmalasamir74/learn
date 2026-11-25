@@ -1,0 +1,37 @@
+table {
+  width: 50%;
+  border: 2px solid #eee;
+  border-bottom-color: rgb(13, 190, 181);
+  width: 600px;
+  margin: auto;
+}
+
+table td {
+  padding: 15px;
+  background-color: #eee;
+  border: 2px solid white;
+}
+
+table thead td {
+  background-color: rgb(54, 54, 54);
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  border-color: 1px solid white;
+}
+
+.x {
+  background-color: rgb(86, 182, 230);
+  text-align: center;
+}
+
+.y {
+  background-color: red;
+}
+
+.bosy {
+  width: 100px;
+}
+
+
+

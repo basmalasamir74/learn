@@ -1,0 +1,75 @@
+.a {
+  background-color: #f8f8f8;
+  width: 1000px;
+}
+
+.A {
+  background-color: #eee;
+  padding: 30px;
+  text-align: center;
+  width: calc(98);
+  margin-left: 1%;
+}
+
+.bosy div {
+  padding: 30px;
+
+  text-align: center;
+  background-color: #eee;
+  float: left;
+  width: calc(96 / 3);
+  margin-left: 1%;
+}
+
+.abdo div {
+  padding: 50px;
+  text-align: center;
+  background-color: #eee;
+  width: calc(97 / 2);
+  margin-left: 1%;
+  float: left;
+}
+
+.rawda div {
+  padding: 50px;
+  text-align: center;
+  background-color: #eee;
+  width: calc(95 / 5);
+  margin-left: 1%;
+  float: left;
+}
+.clear {
+  clear: both;
+}
+
+.normal {
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: #eee;
+  color: black;
+}
+
+.one {
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: rgba(161, 158, 158, 0.111);
+  color: black;
+}
+
+.two {
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: #eee;
+  opacity: 0.1;
+  color: black;
+  
+}

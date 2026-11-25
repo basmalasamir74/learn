@@ -1,0 +1,56 @@
+.bosy {
+  background-color: #eee;
+  width: 256px;
+  height: 150px;
+  margin: auto;
+  text-align: center;
+
+  transition-delay: 0.5s;
+  transition-duration: 1s;
+  margin-top: 0px;
+  .dody {
+    background-color: #ccc;
+    width: 200px;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+    padding: 18px;
+    margin: 10px;
+  }
+}
+
+.bosy:hover {
+  margin-top: 40px;
+  .dody {
+    margin-top: 40px;
+  }
+}
+
+.abdo {
+  background-color: #eee !important;
+  color: #eee !important;
+  font-size: 40px !important;
+  border: none !important;
+  padding: 20px !important;
+  width: 400px;
+  margin: auto;
+}
+
+.abdo::after {
+  content: "Elzero";
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* :root {
+  --mainColor: #009688;
+  --mainPadding: 10px;
+ }  */
+
+.box {
+  border: 2px solid var(--mainColor, black);
+  padding: 10px;
+  margin: auto;
+  width: 400px;
+  color: var(--mainColor, red);
+}

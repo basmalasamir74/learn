@@ -1,0 +1,226 @@
+.box {
+  text-align: center;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  box-shadow:
+    4px 0px 0px 0.1px rgb(245, 109, 40),
+    -4px 0px 0px 0.1px rgb(49, 150, 239);
+  background-color: #eee;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  line-height: 6;
+  color: rgb(245, 109, 40);
+}
+
+.parent {
+  justify-content: center;
+  background-color: #eee;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  box-sizing: border-box;
+  align-items: start;
+  align-content: space-between;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.parent div {
+  background-color: rgb(248, 82, 11);
+  color: white;
+  width: calc(100% / 3 - 10px);
+  align-items: flex-end;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.bosy {
+  justify-content: center;
+  background-color: #eee;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: start;
+  align-content: space-between;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.bosy .one {
+  background-color: rgb(95 115 139 / 98%);
+  color: white;
+  width: calc(100% / 3 - 10px);
+  text-align: center;
+  padding: 20px 0;
+  align-self: flex-end;
+  order: 6;
+}
+
+
+.bosy .two {
+  background-color: rgb(95 115 139 / 98%);
+  color: white;
+  width: calc(100% / 3 - 10px);
+  text-align: center;
+  padding: 92px 0;
+  align-self: flex-end;
+   order: 5; 
+}
+
+
+
+.bosy .three {
+
+  background-color: rgb(95 115 139 / 98%);
+  color: white;
+  width: calc(100% / 3 - 10px);
+  text-align: center;
+  padding: 20px 0;
+  align-self: flex-start;
+  order: 2;
+}
+.bosy .four {
+
+  background-color: rgb(95 115 139 / 98%);
+  color: white;
+  width: calc(100% / 3 - 10px);
+  text-align: center;
+  padding: 92px 0;
+  align-self: flex-start;
+  order: 3;
+}
+.bosy .five {
+
+  background-color: rgb(95 115 139 / 98%);
+  color: white;
+  width: calc(100% / 3 - 10px);
+  text-align: center;
+  padding: 92px 0;
+  align-self: flex-end;
+  order: 4;
+}
+.bosy .six {
+
+  background-color: rgb(95 115 139 / 98%);
+  color: white;
+  width: calc(100% / 3 - 10px);
+  text-align: center;
+  padding: 92px 0;
+  align-self: flex-start;
+  order: 1;
+}
+
+
+
+.abdo {
+  width: 600px;
+  height: 300px;
+  justify-content: center;
+  background-color: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: start;
+  justify-content: space-between;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.abdo .one {
+  background-color: rgba(28, 169, 136, 0.98);
+  color: white;
+  width: 30px;
+  text-align: center;
+  padding: 40px 0;
+  align-self: flex-end;
+}
+
+.abdo .two {
+  background-color: rgba(28, 169, 136, 0.98);
+  color: white;
+  width: 350px;
+  text-align: center;
+  padding: 20px 0;
+  align-self: flex-start;
+}
+
+.abdo .three {
+  background-color: rgba(28, 169, 136, 0.98);
+  color: white;
+  width: 30px;
+  text-align: center;
+  padding: 40px 0;
+  align-self: flex-end;
+}
+
+.basbosa {
+  width: 600px;
+  height: 300px;
+  justify-content: center;
+  background-color: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: start;
+  justify-content: space-between;
+  padding: 10px;
+  flex-direction: row;
+}
+
+.basbosa .one {
+  background-color: orange;
+  color: white;
+  width: 80px;
+  height: 70px;
+  text-align: center;
+  padding: 40px 0;
+  align-self: flex-start;
+  order: 2;
+}
+
+.basbosa .two {
+  background-color: rgb(68, 128, 68);
+  color: white;
+  width: 80px;
+  height: 70px;
+  text-align: center;
+  padding: 40px 0;
+  align-self: flex-end;
+  order: 3;
+}
+
+.basbosa .three {
+  background-color: rgb(165, 85, 42);
+  color: white;
+  width: 80px;
+  height: 70px;
+  text-align: center;
+  padding: 40px 0;
+  align-self: flex-start;
+  order: 4;
+}
+
+.basbosa .four {
+  background-color: blueviolet;
+  color: white;
+  width: 80px;
+  height: 70px;
+  text-align: center;
+  padding: 40px 0;
+  align-self: flex-end;
+  order: 1;
+}
+
+
+
+
+
+
+
+

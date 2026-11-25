@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+
+  <body>
+    <form>
+      <div>
+        <label for="username">Username</label>
+        <br />
+        <input
+          id="username"
+          type="text"
+          name="username"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+
+      <br />
+      <hr />
+
+      <div>
+        <label for="email">Email</label>
+        <br />
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+
+      <br />
+      <hr />
+
+      <div>
+        <label for="password">Password</label>
+        <br />
+        <input
+          id="password"
+          type="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+
+      <br />
+      <hr />
+
+      <div>
+        <label for="subject">Subject</label>
+        <br />
+        <input
+          id="subject"
+          type="text"
+          name="subject"
+          placeholder="Enter your subject"
+        />
+      </div>
+
+      <br />
+      <hr />
+
+      <div>
+        <label for="phone">Phone Number</label>
+        <br />
+        <input
+          id="phone"
+          type="tel"
+          name="phone"
+          placeholder="Enter your phone number"
+        />
+      </div>
+
+      <br />
+      <hr />
+
+      <input type="hidden" name="hidden" value="10" />
+
+      <div>
+        <label for="range">Range</label>
+        <input
+          type="range"
+          name="range"
+          min="100"
+          max="500"
+          step="50"
+          value="100"
+        />
+      </div>
+
+      <br />
+
+      <button type="submit">Send Data</button>
+    </form>
+  </body>
+</html>

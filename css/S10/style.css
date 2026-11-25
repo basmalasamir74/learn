@@ -1,0 +1,173 @@
+.box {
+  text-align: center;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  box-shadow:
+  5px 5px 0px 1px rgb(67, 155, 244),
+  -5px -5px 0px 1px rgb(239 49 107);
+  border: 3px solid black;
+  background-color: #eee;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  line-height: 6;
+}
+ .boxx {
+  text-align: center;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  box-shadow:
+  5px 5px 0px 1px rgb(67, 155, 244),
+  -5px -5px 0px 1px rgb(239 49 107);
+  border: 3px solid black;
+  background-color: #eee;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  line-height: 6;
+}
+.boxxx {
+  text-align: center;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  box-shadow:
+  5px 5px 0px 1px rgb(67, 155, 244),
+  -5px -5px 0px 1px rgb(239 49 107);
+  border: 3px solid black;
+  background-color: #eee;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  line-height: 6;
+} 
+.box::after {
+  content: "1";
+  position: absolute;
+  top: 1.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:black;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.8;
+}
+ .boxx::after {
+  content: "2";
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:black;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.8;
+}
+.boxxx::after {
+  content: "3";
+  position: absolute;
+  top: 34.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color:black;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.8;
+} 
+
+.area {
+  text-align: center;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 10px 0 #323232 inset;
+  background-color: #eee;
+  border-top-left-radius: 10px 20px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 20px 10px;
+} 
+
+.parent {
+  width: 550px;
+
+  margin: 20px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.838);
+
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  background-color: #eee;
+  padding: 20px;
+  width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  button {
+    background-color: #4f9edb;
+    border: none;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+    border-radius: 12px;
+  }
+
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-transform: capitalize;
+  }
+}
+
+.sperator {
+  position: relative;
+  width: 1.5px;
+  background-color: #4f9edb;
+}
+
+
+.sperator::after {
+  content: "Or";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4f9edb;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.8;
+}
+

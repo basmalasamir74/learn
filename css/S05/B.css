@@ -1,0 +1,118 @@
+  div {
+  padding: 10px;
+  width: 100px;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  
+}
+
+.red {
+  width: 100px;
+  background-color: rgb(255, 81, 0);
+
+  height: 100px;
+  left: 30px;
+  top: 30px;
+}
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(62, 152, 181);
+
+  left: 20px;
+  top: 20px;
+  z-index: -1;
+
+}
+
+.green {
+  background-color: rgb(33, 183, 140);
+  width: 100px;
+  height: 100px;
+  left: 25px;
+  top: 25px;
+ 
+}
+
+ .black {
+  width: 10px;
+  background-color: black;
+  height: 10px;
+
+  bottom: 0;
+  left: 0;
+}   
+
+
+
+ul {
+background-color: #eee;
+width: 400px;
+margin: auto;
+}
+
+
+.html {
+background-color: #eee;
+list-style-type: disc start 10;
+padding-bottom: 20px;
+}
+
+
+.css {
+background-color: #eee;
+padding-bottom: 20px;
+}
+
+
+.JS {
+list-style-position: inside;
+background-color: #eee;
+padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

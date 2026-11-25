@@ -1,0 +1,17 @@
+.basbosa {
+  background-color: #eee;
+  width: 150px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.basbosa ol li {
+  background-color: #b08d8d;
+  margin-bottom: 10px;
+}
+
+.basbosa ul li {
+  background-color: #b08d8d;
+  margin-bottom: 10px;
+}

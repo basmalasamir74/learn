@@ -1,0 +1,66 @@
+.bosy {
+  background-color: #eee;
+  width: 400px;
+  margin: 10px;
+  margin: auto;
+  border-width:2px;
+  border-color: red blue;
+  border-style: solid;
+  padding: 10px;
+  position: relative;
+}
+
+
+.top-left {
+  position:absolute;
+  background-color: blue;
+  border-right: 2px solid red;
+  top: 0;
+  left: 0;
+  padding: 4px;
+margin: -6px;
+} 
+
+.bottom-left {
+  position: absolute;
+  background-color: blue;
+  border-right: 2px solid red;
+  bottom: 0;
+  left: 0;
+  padding: 4px;
+  margin: -6px;
+} 
+
+.top-right {
+  position: absolute;
+  background-color: blue;
+  border-left: 2px solid red;
+  top: 0;
+  right: 0;
+  padding: 4px;
+  margin: -6px;
+} 
+
+.bottom-right {
+  position: absolute;
+  background-color: blue;
+  border-left: 2px solid red;
+  bottom: 0;
+  right: 0;
+  padding: 4px;
+  margin: -6px;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
